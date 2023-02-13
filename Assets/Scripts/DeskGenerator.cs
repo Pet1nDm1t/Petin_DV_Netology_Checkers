@@ -71,6 +71,7 @@ namespace Checkers
             chip.Pair = cell;
             cell.Pair = chip;
             chip.Color = color;
+            chip.Coordinate = cell.Coordinate;
             _chips.Add(chip);
         }
     }
